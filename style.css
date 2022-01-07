@@ -464,19 +464,32 @@ overflow-y:hidden ;
 }
 .influencersphone{
     width: 50%;
+    display: flex;
+    justify-content: center;
     
 }
 .influencersphone img{
-    margin: 94px 144px 0 144px;
+    max-width: 100%;
+    margin-top: 5rem;
+    width: 60%;
 }
 .influencerstext{
     width: 50%;
 }
+.influencerstextimg{
+    max-width: 42.1rem;
+    width: 80%;
+    margin: 4.6rem auto 4.6rem 1.5;
+
+}
 .influencerstext img{
-    margin: 171px 0px 0 15px;
+    margin: 17.1rem 0px 0 0px;
 }
 .influencerstext .headertext{
-    margin: 46px 223px 0 15px;
+    margin: 4.6rem auto 0 0;
+    width: 80%;
+    min-width: 35rem;
+    max-width: 42.1rem;
     font-family: DM Sans;
     font-size: 68px;
     font-style: normal;
@@ -487,7 +500,11 @@ overflow-y:hidden ;
     overflow-y: hidden;
 }
 .influencerstext .maintext{
-    margin: 32px 223px 159px 15px;
+    margin: 4.6rem auto 0 0;
+    width: 80%;
+    max-width: 42.1rem;
+    min-width: 32rem;
+
     font-family: DM Sans;
     font-size: 20px;
     font-style: normal;
@@ -504,27 +521,154 @@ overflow-y:hidden ;
 }
 .call{
     background-color: #272727;
-   
-    
+    width: 50%;
 
 }
+
+.filtertext{
+    width: 50%;
+    background-color: #202020;
+    color: #ffffff;
+
+}
+.influencerpill2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .innerrect{
-    width: 513px;
-    box-sizing: content-box;
-    height: auto;
-    position: relative;
-    margin: -6px 87px 172px 120px;
+    max-width: 51.3rem;
+    width: 71.25%;
+    height: 49rem;
+    margin: -12px 12.08% 17.2rem 16.66%;
     border:solid 15px#2E2E2E ;
     border-radius: 0px 0px 20px 20px;
     overflow-y: hidden;
 
 }
 
-.innerrect img{
-    margin:174px 0 -30px 0;
-    width: 513px;
+
+.calltab{
+    max-width: 51.4rem;
+    background-color: #363636;
+    width: 100%;
+    height: 49rem;
+    margin-top: 17.5rem;
+    border-radius: 20px 20px 20px 20px;
+    border: 5px solid #363636;
+
+}
+.caller{
+    display: flex;
+    color: #ffffff;
+    justify-content:space-evenly;
+    align-content: center;
+    margin-top: 7.3rem;
+}
+.callerimg{
+    max-width: 100%;
+}
+.callermessage{
+    align-items: center;
+    font-size: 2rem;
+    max-width: 36.7rem;
+    width: 70%;
+
+}
+.callermessage span{
+    font-weight: 700;
+}
+.acceptordecline{
+    display: flex;
+    color: #ffffff;
+    justify-content: space-around;
+    max-width:43.6rem ;
+    margin: 0 auto;
+    margin-top: 4.2rem;
+    margin-bottom: 8.5rem;
+}
+
+.decline{
+    background-color: #E34D4D;
+    padding: 12px 65px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: cent;
+    border-radius: 8px;
+
+
+
+}
+.accept{
+    background-color: #029C56;
+    padding: 12px 65px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 8px;
+
+}
+.filtericon{
+    max-width: 6.4rem;
     
-   
+
+}
+.influencer{
+    max-width: 100%;
+}
+.influencerpill2{
+    max-width: 48.1rem;
+    width: 66.7%;
+    margin: 15.1rem auto 0 auto;
+}
+.filterheader{
+    max-width: 48.1rem;
+    margin: 6rem auto 0 auto;
+    width: 66.7%;
+    font-family: DM Sans;
+    font-size: 6.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 69px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    overflow: hidden;
+
+}
+.filtermaintext{
+    max-width: 48.1rem;
+    margin: 3.2rem auto 0 auto;
+    width: 66.7%;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+.featuresheader{
+    max-width: 37.1rem;
+    min-width: 25rem;
+    width:25.76%;
+    margin: 13.1rem auto 0 8.33%;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 69px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #007640;
+    overflow: hidden;
+
 }
 @media screen and (max-width: 800px) {
     #navbar{
@@ -663,7 +807,6 @@ overflow-y:hidden ;
     
   
     .influencers{
-        display: flex;
         flex-wrap: wrap;
         
     }
@@ -672,38 +815,46 @@ overflow-y:hidden ;
         
     }
     .influencersphone img{
-        margin: 10%;
-        width: 80%;
-        height: auto;
+        margin-bottom: 3rem;
+        margin-left: 0;
     }
     .influencerstext{
-        width: auto;
-    }
-    .influencerstext img{
-        margin: 0 30%
-    }
-    .influencerstext .headertext{
-        margin: 46px 40px 0 40px;
-        font-family: DM Sans;
-        font-size: 3rem;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 69px;
-        letter-spacing: -0.03em;
-        text-align: left;
-        overflow-y: hidden;
-    }
-    .influencerstext .maintext{
-        margin: 32px 40px 159px 40px;
-        font-family: DM Sans;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
-        letter-spacing: 0em;
-        text-align: left;
+        width: 90%;
+        margin:auto ;
+        flex-direction: column;
+        align-self: center;
+     }
+     .influencerstextimg{
+         display: flex;
+         justify-content: flex-start;
+ 
+     }
+     .influencerstext img{
+         margin-top: 5%;
+     }
+     .headertext, .maintext{
+        margin: 4.6rem auto 0 auto;
+
+     }
+     .filter{
+         flex-wrap: wrap;
+     }
+     .call{
+        width: 100%;
+
+     }
+     .filtertext{
+         width: 100%;
+     }
     
-    }
+     .decline,.accept{
+        padding: 3px 22px;
+        font-size: 1.8rem;
+     }
+     .acceptordecline{
+        max-width:22.6rem ;
+
+     }
     
     
   }
