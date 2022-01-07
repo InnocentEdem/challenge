@@ -63,8 +63,6 @@ ul li a{
   flex-direction: column;
   align-items: center;
   height: auto;
-  border: solid black;
-
     
 }
 .home-text-header{
@@ -101,21 +99,20 @@ ul li a{
 }
 .store-img1{
     display: inline-block;
-    width: 260px;
-    height: 82px;
+    max-width: 100%;
+    height: auto;
     margin: 20px;
 }
  .store-img2{
     display: inline-block;
-    width: 260px;
-    height: 82px;
+    max-width: 100%;
+    height: auto;
     margin: 20px;
 }
 .home-images{
     display: flex;
     justify-content: center;
     position: relative;
-    border: solid ;
 }
 .h-image1, .h-image3{
     bottom: 0%;
@@ -134,57 +131,49 @@ ul li a{
     right: 0%;
 }
 .for-fans{
+   
    background-image: url("./assets/noise.png");
    position: relative;
-   /* height: 200rem; */
-   /* overflow-y: hidden; */
+   height: auto;
+   height: 50rem; 
+   overflow-y: hidden;
 
 }
 .forfans-header-text{
-    margin: 143px 736px 31px 122px;
+    margin: 10% 6% 0 6%;
+    max-width: 50rem;
     font-family: DM Sans;
-    font-size: 72px;
+    font-size: 7.2rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 73px;
+    line-height: 7.3rem;
     letter-spacing: -0.03em;
     text-align: left;
     overflow-y: hidden;
     color: #007640;
 }
-.ffimg1, .ffimg2{
+
+.forfans-img1{
     position: absolute;
     z-index: -100;
-}
-.forfans-img1{
-    height: 191.71182250976562px;
-    width: 169.12478637695312px;
-    left: -5.497714996337891px;
-    top: -4.408203125px;
-    border-radius: 0px;
-    
+    max-width: 100%;
+    min-width: 10%;
+    height: auto;
+    width: 10%;
+    top: 4rem;
+    left: 4.7rem;
     }
 .forfans-img2{
-    height: 553.3735284040297px;
-    width: 489.51638196641267px;
-    right: 98.0516357421875px;
-    top: -15.753662109375px;
-    border-radius: 0px;
+    position: absolute;
+    width: 30%;
+    z-index: -100;
+    right: 4.2rem;
+    top: -10%;
 }
-.ffimg1{
-    top: 40.59px;
-    left: 47.5px
 
-}
-.ffimg2{
-    left: 875.62px;
-    right: -25.48px;
-    top: -163.48px;
-    padding-bottom: 80px;
-    padding: 18.7px;
-}
 .forfans-text{
-    margin: 0 635px 150px 122px;
+    margin: 0 6% 15rem 6%;
+    max-width: 68.3rem; 
     font-family: DM Sans;
     font-size: 20px;
     font-style: normal;
@@ -194,51 +183,51 @@ ul li a{
     text-align: left;
     opacity: 60%;
     z-index: 500;
-
 }
 .connect{
-    position: relative;
-    height: 662px;
+    /* height: 662px; */
     overflow-y: hidden;
+    display: flex;
 }
 
-.pill{
-    margin: 134px 1211px 0 129px;
-   
 
+
+.connecttext{
+    width: 50%;
+}
+.connect-image{
+    display: flex;
+    width: 50%;
 }
 .pillimg1{
- 
-    z-index: 500;
-    position: absolute;
-    width: 402px;
-    height: 478.28px;
-    left: 887px;
-    top: 94px;
+    max-width: 100%;
+    margin: auto;
+
 
 }
 .fans3{
     /* width:100% */
 }
-
+.connectpill{
+    max-width: 40.1rem;
+    margin: 4.7rem auto 0 auto;
+}
 .fansheader{
-height: 207px;
-width: 481px;
-margin: 40px 0 0 129px;
+max-width: 40.1rem;
+margin: 4.7rem auto 0 auto;
 font-family: DM Sans;
-font-size: 68px;
+font-size: 6.8rem;
 font-style: normal;
 font-weight: 500;
-line-height: 69px;
+line-height: 6.87rem;
 letter-spacing: -0.03em;
 text-align: left;
 overflow-y:hidden ;
 
 }
 .fanstext{
-    height: 120px;
-    width: 481px;
-    margin:32px 830px 97px 129px;
+    max-width: 40.1rem;
+    margin: 3.2rem auto 9.7rem auto;
     font-family: DM Sans;
     font-size: 20px;
     font-style: normal;
@@ -522,7 +511,7 @@ overflow-y:hidden ;
     
    
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     #navbar{
         display: none;
     }
@@ -556,136 +545,34 @@ overflow-y:hidden ;
         text-align: center;
         margin: 0px 40px 40px 40px;
     }
-    /* .h-image1, .h-image3{
-        position: absolute;
-        bottom: 0%;
-        width: 100%;
-        height:auto
-    }
-    .h-image2{
-        z-index: 100;
-        margin-right: 55px;  
-        max-width: 60%;
-       
-    }
-    .h-image1{
-        left: -30px;
-    }
-    .h-image3{
-        left: 0px;
-    } */
-    .forfans-header-text{
-        margin: 40px 40px 3.1px 40px;
-        font-family: DM Sans;
-        font-size: 3rem;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 3rem;
-        letter-spacing: -0.03em;
-        text-align: left;
-        /* overflow-y: hidden; */
-        color: #007640;
-    }
-    .ffimg1, .ffimg2{
-        position: absolute;
-        z-index: -100;
-    }
-    .forfans-img1{
-        height: 19px;
-        width: 16px;
-        left: -5.497714996337891px;
-        top: -4.408203125px;
-        border-radius: 0px;
+ 
+    .connect{
+        display: flex;
+        flex-direction: column;
         
-        }
-    .forfans-img2{
-        height: 55px;
-        width: 48.7px;
-        right: 98.0516357421875px;
-        top: -15.753662109375px;
-        border-radius: 0px;
     }
-    .ffimg1{
-        top: 40.59px;
-        left: 47.5px
-    
+    .connecttext{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
-    .ffimg2{
-        left: 87.62px;
-        right: -25.48px;
-        top: -163.48px;
-        padding-bottom: 80px;
-        padding: 18.7px;
-    }
-    .forfans-text{
-        margin: 40px 40px 15px 40px;
-        font-family: DM Sans;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
-        letter-spacing: 0em;
-        text-align: left;
-        opacity: 60%;
-        z-index: 500;
-    
-    }
-    
-    .pill{
-        margin: 134px 0px 0 129px;
-       
-    
+    .connect-image{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10.9rem;
     }
     .pillimg1{
-     
-      display: none;
-    }
-   
-    
-    .fansheader{
- 
-    margin: 200px 40px 0 40px;
-    width:100%;
-    font-family: DM Sans;
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 3.1rem;
-    letter-spacing: -0.03em;
-    text-align: left;
-    overflow-y:hidden ;
-    
-    }
-    .fanstext{
-        margin:2px 40px 40px 40px;
-        width:100%;
+        max-width: 100%;
         height: auto;
-        width: auto;
-        font-family: DM Sans;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
-        letter-spacing: 0em;
-        text-align: left;
+    }
     
-    }
-    .connect{
-        height: auto;
-        /* overflow-y: hidden; */
-    }
     .chat{
         width: 100%;
         height: auto;
         z-index: 300;
     }
-    .fans3pill{
-        width: 100px;
-        height: 32px;
-        margin: 40px 0 0 40px;
-        left: 120px;
-        top: 142px;
-    }
+    
     .chaticon{
         position: absolute;
         width: 64px;
