@@ -226,6 +226,8 @@ overflow-y:hidden ;
 
 }
 .fanstext{
+    width: 90%;
+
     max-width: 40.1rem;
     margin: 3.2rem auto 9.7rem auto;
     font-family: DM Sans;
@@ -244,68 +246,78 @@ overflow-y:hidden ;
     background-color: #F0F0E6;
 }
 .assurance{
+    width: 50%;
     position: relative;
-    width: 100%;
     height: auto;
     background-color:#039352;
     overflow-y: hidden;
   
 }
+.assurance-images{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 48.1rem;
+    margin: 12.6rem auto 0 auto;
+}
 .chat{
-    width: 100%;
+    width: 50%;
     height: auto;
     z-index: 300;
 }
 .fans3pill{
     width: 100px;
     height: 32px;
-    margin: 142px 0 0 120px;
-    left: 120px;
-    top: 142px;
 }
 .chaticon{
-    position: absolute;
     width: 64px;
     height: 64px;
     right: 120px;
     top: 126px;
 }
 .fans3header{
+    width: 90%;
+
     height: 136px;
-    width: 481px;
-    margin: 54px 0 0 120px;
+    max-width: 48.1rem;
+    margin: 6.1rem auto  0 auto;
     font-family: DM Sans;
-    font-size: 68px;
+    font-size: 6.8rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 68px;
+    line-height: 6.8rem;
     letter-spacing: -0.03em;
     color: #ffffff;
     text-align: left;
     overflow-y: hidden;
 }
 .fans3text{
+    width: 90%;
+    max-width: 48.1rem;
+    margin: 6.1rem auto  auto auto;
     font-family: DM Sans;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 3rem;
     letter-spacing: 0em;
     text-align: left;
     color: #ffffff;
-    height: 90px;
-    width: 481px;
-    margin: 32px 0 auto 119px;
-    left: 120px;
-    top: 396px;
-
+}
+.chat-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 51.3rem;
+    width: 71.25%;
+    margin: 0 16.6% 0 12%;
 }
 .chat1{
-    margin: 0 120px 0 87px;
     background-color: #fffffd;
-    height: 99px;
-    width: 513px;
+    height: 9.9rem;
+    width: 100%;
     overflow-y: hidden;
+    align-self: center;
 }
 .arrow{
     height: 20px;
@@ -327,10 +339,11 @@ overflow-y:hidden ;
     margin: 36px 0 36px 13px;
 }
 .received-chat{
+    align-self: flex-end;
+    margin-top: 5.3rem;;
     background-color: #ffffff;
     border-radius: 20px 20px 0px 20px;
-    margin: 53px 120px 53px 221px;
-    width: 379px;  
+    max-width: 37.9rem;  
     padding: 15px 15px 18px 15px;
     position: relative;
     overflow-y: hidden;
@@ -361,11 +374,11 @@ overflow-y:hidden ;
    
 }
 .sent-chat{
+    align-self: flex-start;
     background-color: #ffffff;
     border-radius: 20px 20px 20px 0px;
-    margin-left: 87px;
-    margin-bottom: 21px;
-    max-width: 305px;
+    margin-top: 3rem;
+    max-width: 30.5rem;
     width: auto;  
     padding: 15px 15px 18px 15px;
     position: relative;
@@ -392,10 +405,11 @@ overflow-y:hidden ;
     text-align: left;
 }
 .newchat{
-    margin:42px 120px 0 87px ;
     white-space: nowrap;
-    width: 513px;
-    height: 99px;
+    max-width: 51.3rem;
+    width: 100%;
+    margin-top: 6.3rem;
+    height: 9.9rem;
     background-color: #FFFFFD;
     overflow: hidden;
     
@@ -403,8 +417,9 @@ overflow-y:hidden ;
 .input{
     display: inline-block;
     white-space: nowrap;
-    margin: 15px 0 30px 15px;
-    width: 430px;
+    margin: 1.5rem 0 3rem 1.5rem;
+    max-width: 44.1rem;
+    width: 80%;
     height: 54px;
     background-color:#F3F3F3;
     border-radius: 10px;
@@ -412,29 +427,29 @@ overflow-y:hidden ;
 
 }
 .input p{
-    margin: 14px 40.95px 13px 15px;
-    width: 265px;
+    margin: 1.4rem 5.895rem 1.3rem 1.5rem;
+    max-width: 27.5rem;
+    width: 50%;
     font-family: DM Sans;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0em;
+    line-height: 2.7rem;
     text-align: left;
     display: inline-block;
 
 }
 .attach{
     display: inline-block;
-    margin: 12.94px 0px 12.94px 0;
-    width: 32px;
-    height: 32px;
+    margin: 1.294rem 2.97rem 1.294rem 0;
+    max-width: 100%;
+    height: auto;
     overflow: hidden;
 }
 .mic{
     display: inline-block;
-    margin: 11px 15px 11px 16.95px;
-    width: 32px;
+    max-width: 100%;
+    margin: 1.294rem 2.97rem 1.294rem 0;
     height: 32px;
     overflow: hidden;
 }
@@ -573,151 +588,80 @@ overflow-y:hidden ;
         z-index: 300;
     }
     
-    .chaticon{
-        position: absolute;
-        width: 64px;
-        height: 64px;
-        right: 30px;
-        top: 30px;
-    }
+
     .fans3{
-        flex-wrap: wrap;
-       
-    }
-    .fans3header{
-        height: auto;
-        margin: 40px 0 0 40px;
-        font-size: 2.1rem;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 2.2rem;
-        letter-spacing: -0.03em;
-        color: #ffffff;
-        text-align: left;
-        overflow-y: hidden;
+        display: flex;
+        flex-direction: column;
     }
     .fans3text{
-        font-family: DM Sans;
-        font-size: 1.2rem;
-        font-style: normal;
-        width: auto;
-        height: auto;
-        font-weight: 500;
-        line-height: 1.4rem;
-        text-align: left;
-        margin: 40px;
-    
+        padding-bottom: 9rem;
     }
-    .chat1{
-        margin: 0 0px 0 0px;
-        background-color: #fffffd;
-        height: 99px;
-        width: auto;
-        overflow-y: hidden;
-    }
-   
-    .chatimage{
-        margin: 21px 0 23px 23.6px;
-    }
-   
-    .received-chat{
-        border-radius: 20px 20px 0px 20px;
-        margin: 53px 20px 53px 40px;
-        width: 19.5rem;  
-        padding: 15px 15px 18px 15px;
-        position: relative;
-        overflow-y: hidden;
-    
-    }
-    .received-chat p{
-        font-family: DM Sans;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 27px;
-        letter-spacing: 0em;
-        text-align: left;
-       
-    }
-    .time{
-        position: absolute;
-        bottom:3px;
-        right:15px;
-        font-family: DM Sans;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 18px;
-
-       
-    }
-    .sent-chat{
-        margin-left: 10px;
-        margin-bottom: 21px;
-        max-width: 305px;
-        max-width: 19.5rem;  
-        width: auto;
-        padding: 15px 15px 18px 15px;
-    
-    }
-    .time2{
-        position: absolute;
-        bottom:3px;
-        left:15px;
-        font-family: DM Sans;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 18px;
-        letter-spacing: 0em;
-        text-align: left;
-    }
-    .newchat{
-        margin:42px 0px 0 0px ;
-        white-space: nowrap;
-        width: auto;
-        height: auto;
-        background-color: #FFFFFD;
-        overflow: hidden;
-        
+    .assurance{
+        width: 100%;
     }
     .input{
         display: inline-block;
         white-space: nowrap;
-        margin: 15px 10px 30px 20px;
-        width: auto;
-        height: auto;
+        margin: 1.5rem 0 3rem 1.5rem;
+        max-width: 44.1rem;
+        width: 75%;
+        height: 54px;
         background-color:#F3F3F3;
         border-radius: 10px;
         overflow: hidden;
     
     }
     .input p{
-        margin: 14px 20px 13px 15px;
-        width: auto;
-        font-size: 18px;
-       
+        margin: 1.4rem 0.5rem 1.3rem 1rem;
+        max-width: 27.5rem;
+        width: 60%;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.7rem;
+        text-align: left;
+        display: inline-block;
     
     }
-    .attach{
+    .input{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .input span{
         display: inline-block;
-        margin: 12.94px 0px 12.94px 5px;
-        width: auto;
+        margin: 1.4rem 0 1.3rem 0;
+
+    }
+    .attach{
+        display: none;
+        display: inline-block;
+        margin: auto 0 auto auto ;
+        width: 40%;   
         height: auto;
         overflow: hidden;
     }
+    .input{
+       white-space: nowrap;
+    }
+    
     .mic{
         display: inline-block;
-        margin: 11px 10px 11px 10px;
-        width: auto;
+        width: 40%;
+        margin: auto 0 auto auto ;
+        margin-right: 0.5rem;
         height: auto;
         overflow: hidden;
     }
     .send{
-        margin: 30px 19px 45px 0px;
-        width: 24px;
-        height: 24px;
+        margin: 30px 19px 45px 13.97px;
+        width: 2.4rem;
     }
+    .newchat{
+        display: flex;
+    }
+    
+  
     .influencers{
         display: flex;
         flex-wrap: wrap;
