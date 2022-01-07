@@ -6,28 +6,40 @@
 body{
     width:100%;
 }
+html{
+    font-size: 62.5%;
+}
+
+.menus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 .hamburger{
     display: none;
 }
 #navbar{
-    display: inline-block;
-    margin-top: 61px;
-    margin-right:3.25rem ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
 }
-#logo{
-    margin: 2.98rem 15rem 0 7.4rem;
-    display: inline-block;
+
+#logo img{
+    width: 100%;
 }
 header{
-    margin-bottom: 136px;
-    white-space: nowrap;
+   
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 13.6rem;
 }
 #navbar ul li {
     display: inline-block;
     font-family: DM Sans;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 116.6%;
     margin-right: 3.25rem;
 }
@@ -46,16 +58,21 @@ ul li a{
 } */
 .home-main{
   display: flex;
+  width: auto;
+  margin: 0 auto;
   flex-direction: column;
-  justify-content: right;
+  align-items: center;
   height: auto;
+  border: solid black;
+
     
 }
 .home-text-header{
+    max-width: 100rem;
     font-family: DM Sans; 
-    font-size: 8.125rem;
+    font-size: 13rem;
     font-weight: 700;
-    line-height: 7.6rem;
+    line-height: 12.3rem;
     letter-spacing: -0.06em;
     color: #ffffff;
     margin: 0 7.5rem 2.5rem 7.5rem;
@@ -65,13 +82,21 @@ ul li a{
     
 }
 .home-text{
+    max-width: 55rem;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 2rem;
     color: #ffffff;
     text-align: center;
-    margin: 0 426px 82px 426px;
+    margin: 4rem auto 0 auto;
 }
 .stores{
     display: flex;
     justify-content: center;
+    margin-top: 8.2rem;
   
 }
 .store-img1{
@@ -90,20 +115,23 @@ ul li a{
     display: flex;
     justify-content: center;
     position: relative;
+    border: solid ;
 }
 .h-image1, .h-image3{
-    position: absolute;
     bottom: 0%;
+    position: absolute;
+    max-width: 70%;
 }
 .h-image2{
     z-index: 100;
-    margin-right: 150px; 
+    max-width: 70%;
+    margin-right: 15%; 
 }
 .h-image1{
-    left: -61px;
+    left: -7%;
 }
 .h-image3{
-    left: 200.7px;
+    right: 0%;
 }
 .for-fans{
    background-image: url("./assets/noise.png");
@@ -494,13 +522,11 @@ overflow-y:hidden ;
     
    
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 700px) {
     #navbar{
         display: none;
     }
-    #logo{
-        margin: 5px 0px 0 49px;
-    }
+   
     .hamburger > div{
         border-bottom: solid 2px black;
         margin-bottom:  5px;
@@ -508,11 +534,11 @@ overflow-y:hidden ;
     }
     .hamburger{
         display: inline-block;
-        margin: 0px 0px 0 120px;
+        margin: 10px 0px 0 0px;
 
     }
     .hamburger i{
-        font-size: 36px;
+        font-size:2em;
         color: #ffffff;
     }
     .home-text-header{
@@ -530,7 +556,7 @@ overflow-y:hidden ;
         text-align: center;
         margin: 0px 40px 40px 40px;
     }
-    .h-image1, .h-image3{
+    /* .h-image1, .h-image3{
         position: absolute;
         bottom: 0%;
         width: 100%;
@@ -547,7 +573,7 @@ overflow-y:hidden ;
     }
     .h-image3{
         left: 0px;
-    }
+    } */
     .forfans-header-text{
         margin: 40px 40px 3.1px 40px;
         font-family: DM Sans;
