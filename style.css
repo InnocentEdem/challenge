@@ -1342,12 +1342,15 @@ footer{
         margin-top: 0;
     } 
     .ctaheadertext{
-        min-height: 5rem;
+        min-height: 6rem;
+        max-width: 15rem;
         font-size: 2.2rem;
         line-height: 2.3rem;
-        margin-top: 20%;
+        margin-top: 5%;
+        margin-bottom: 0%;
     }
     .ctasidetext{
+        margin-top: 0;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -1355,11 +1358,27 @@ footer{
         
 
     }
+    .ctatext{
+        width: 75%;
+    }
+    .ctaimagescontainer{
+        width: 25%;
+    }
     .ctastores{
         display: flex;
+        width: 100%;
         flex-direction: row;
-        align-items: center;
+        /* justify-content: flex-start; */
         margin-top: 0%;
+        margin-left: 0%;
+        z-index: 100;
+    }
+    .ctastores img{
+        min-width: 8.5rem;
+        margin-top: 0.5rem;
+    }
+    .ctacontainer{
+        width: 100%;
     }
     .ctaimagescontainer{
     }
