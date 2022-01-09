@@ -135,12 +135,24 @@ ul li a{
    background-image: url("./assets/noise.png");
    position: relative;
    height: auto;
-   height: 50rem; 
+   /* height: 50rem;  */
    overflow-y: hidden;
 
 }
+.forfans1text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+
+}
+.forfans1text p{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .forfans-header-text{
-    margin: 10% 6% 0 6%;
+    margin-top: 10%;
     max-width: 50rem;
     font-family: DM Sans;
     font-size: 7.2rem;
@@ -172,7 +184,6 @@ ul li a{
 }
 
 .forfans-text{
-    margin: 0 6% 15rem 6%;
     max-width: 68.3rem; 
     font-family: DM Sans;
     font-size: 20px;
@@ -183,21 +194,31 @@ ul li a{
     text-align: left;
     opacity: 60%;
     z-index: 500;
+    margin-bottom: 10%;
+
 }
 .connect{
     /* height: 662px; */
     overflow-y: hidden;
+    width: 100%;
     display: flex;
+    justify-content: center;
+    margin: auto;
+
 }
 
 
 
 .connecttext{
-    width: 50%;
+    width: 45%;
+    margin-left: 5%;
 }
 .connect-image{
     display: flex;
-    width: 50%;
+    justify-content: center;
+    width: 45%;
+    margin: auto 5% auto 0;
+
 }
 .pillimg1{
     max-width: 100%;
@@ -206,15 +227,15 @@ ul li a{
 
 }
 .fans3{
-    /* width:100% */
+    width:100%
 }
 .connectpill{
-    max-width: 40.1rem;
-    margin: 4.7rem auto 0 auto;
+    max-width: 50.1rem;
+    margin: 10% 0 0 0;
 }
 .fansheader{
-max-width: 40.1rem;
-margin: 4.7rem auto 0 auto;
+max-width: 50.1rem;
+margin: 5% 0 0 0;
 font-family: DM Sans;
 font-size: 6.8rem;
 font-style: normal;
@@ -226,10 +247,10 @@ overflow-y:hidden ;
 
 }
 .fanstext{
-    width: 90%;
+    width: 100%;
 
-    max-width: 40.1rem;
-    margin: 3.2rem auto 9.7rem auto;
+    max-width: 50.1rem;
+    margin: 5% 0 10% 0;
     font-family: DM Sans;
     font-size: 20px;
     font-style: normal;
@@ -241,25 +262,35 @@ overflow-y:hidden ;
 }
 .fans3{
     display: flex;
-    position: relative;
+    width: 100%;
+    /* position: relative; */
     background-image: url("./assets/noise.png");
     background-color: #F0F0E6;
 }
 .assurance{
     width: 50%;
+
     position: relative;
     height: auto;
     background-color:#039352;
     overflow-y: hidden;
   
 }
+.assurancecontainer{
+    margin-left: 10%;
+
+}
+.chatspacer{
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+}
 .assurance-images{
-    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 48.1rem;
-    margin: 12.6rem auto 0 auto;
+    max-width: 58.1rem;
+    margin: 10% 0 0 0;
 }
 .chat{
     width: 50%;
@@ -281,7 +312,7 @@ overflow-y:hidden ;
 
     height: 136px;
     max-width: 48.1rem;
-    margin: 6.1rem auto  0 auto;
+    margin: 6.1rem 0  0 0;
     font-family: DM Sans;
     font-size: 6.8rem;
     font-style: normal;
@@ -295,7 +326,7 @@ overflow-y:hidden ;
 .fans3text{
     width: 90%;
     max-width: 48.1rem;
-    margin: 6.1rem auto  auto auto;
+    margin: 6.1rem 0  auto 0;
     font-family: DM Sans;
     font-size: 2rem;
     font-style: normal;
@@ -310,7 +341,7 @@ overflow-y:hidden ;
     flex-direction: column;
     max-width: 51.3rem;
     width: 71.25%;
-    margin: 0 16.6% 0 12%;
+    margin: 0 0 0 0;
 }
 .chat1{
     background-color: #fffffd;
@@ -475,6 +506,7 @@ overflow-y:hidden ;
 }
 .influencerstext{
     width: 50%;
+    margin-top: 17.6rem;
 }
 .influencerstextimg{
     max-width: 42.1rem;
@@ -500,7 +532,7 @@ overflow-y:hidden ;
     overflow-y: hidden;
 }
 .influencerstext .maintext{
-    margin: 4.6rem auto 0 0;
+    margin: 4.6rem auto 10% 0;
     width: 80%;
     max-width: 42.1rem;
     min-width: 32rem;
@@ -530,10 +562,6 @@ overflow-y:hidden ;
     background-color: #202020;
     color: #ffffff;
 
-}
-.influencerpill2{
-    display: flex;
-    justify-content: space-between;
 }
 
 
@@ -626,12 +654,35 @@ overflow-y:hidden ;
     max-width: 100%;
 }
 .influencerpill2{
-    max-width: 48.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 42.1rem;
     width: 66.7%;
     margin: 15.1rem auto 0 auto;
 }
+.influencerpilldiv{
+    display: flex;
+    justify-content: center;
+    padding: 0.7rem 1.8rem;
+    font-family: 'DM Sans';
+    width: 11rem;
+    height: 3.2rem;
+    font-family: DM Sans;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.9rem;
+    letter-spacing: -0.03em;
+    text-align: left;
+    background-color:#FF8C62 ;
+    color: #000000;
+    border-radius: 50px;
+
+}
+
 .filterheader{
-    max-width: 48.1rem;
+    max-width: 42.1rem;
     margin: 6rem auto 0 auto;
     width: 66.7%;
     font-family: DM Sans;
@@ -645,7 +696,7 @@ overflow-y:hidden ;
 
 }
 .filtermaintext{
-    max-width: 48.1rem;
+    max-width: 42.1rem;
     margin: 3.2rem auto 0 auto;
     width: 66.7%;
     font-size: 20px;
@@ -653,6 +704,7 @@ overflow-y:hidden ;
     font-weight: 400;
     line-height: 30px;
     text-align: left;
+    margin-bottom: 10%;
 
 }
 .featuresheader{
@@ -670,6 +722,304 @@ overflow-y:hidden ;
     overflow: hidden;
 
 }
+
+.featurescontainer{
+    display: flex;
+    max-width: 110.2rem;
+    width: 90%;
+    margin: auto;
+}
+.easeofuse{
+
+}
+.roadmap{
+    display: flex;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 0;
+}
+.bullets{
+    width: 3%;
+    margin: 1rem 0 100% 0;
+    height: 35rem;
+
+}
+.vertline{
+    display: inline-block;
+    position: absolute;
+    border-left: solid 1px rgba(0, 0, 0, 0.3);
+    margin-left: 0rem;
+    margin-left: 4.8rem;
+    /* height: 100%; */
+    top: 5%;
+    left: -3.85rem;
+    bottom: 32%;
+}
+.forline{
+    position: relative;
+}
+.bullets div{
+    width: 100%;
+    height: 45%;
+}
+.bullettext{
+    width: 80%;
+    margin-left: -1.2rem;
+    position: relative;
+}
+.easeheader,.easetext{
+    margin-left: 4.8rem;
+}
+.easeheader{
+    max-width: 48.1rem;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+}
+.bullet{
+    display: inline-block;
+    position: absolute;
+    width: 2.2rem;
+    height: 2.2rem;
+    border: solid 1px black;
+    background-color: #ffffff;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 50;
+    left: 0rem;
+    margin-top: 1rem;
+    margin-bottom: auto;
+}
+.innerbullet{
+    display: block;
+    width: 60%;
+    height: 60%;
+    background-color:rgba(0, 0, 0, 0.2) ;
+    border-radius: 50%;
+    margin: 20%;
+
+}
+.easetext{
+    max-width: 37.9rem;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 8rem;
+
+}
+.roadmapimage{
+    width: 50%;
+    display:flex;
+    justify-content: flex-start;
+}
+.roadmapimg{
+    max-width: 100%;
+    height: auto;
+    margin-right: 11%;
+}
+.calltoaction{
+    display: flex;
+    justify-content: center;
+    margin-top: -30.3rem;
+    }
+.ctacontainer{
+    display: flex;
+    background-color:#029F58 ;
+    background-image: url("./assets/noise.png");
+    border-radius: 100px;
+    /* max-width: 130rem; */
+    /* max-height: 62.3rem; */
+
+    width: 90%;
+    height: auto;
+
+}
+.ctaimagescontainer{
+    margin: 10.5rem 0 0 8.58%;
+    max-width: 35.9rem;
+    width: 38.5%;
+    position: relative;
+    overflow: hidden;
+    
+}
+.ctatext{
+    width: 61.5%;
+}
+.ctaimage1{
+    width: 100%;
+}
+.ctaimage2{
+    width: 42%; 
+}
+.ctaimage2{
+    position: absolute;
+    max-width: 15rem;
+    max-height: 26.8rem;
+    top: 8.4%;
+    left: 41.5%;
+    right: 20%;
+}
+.ctaheadertext{
+    /* max-width: 49rem; */
+    height: auto;
+    /* width: 66.39%; */
+    margin: 21.7% auto 0 7.45%;
+    color: #ffffff;
+    overflow: hidden;
+    font-family: DM Sans;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+}
+.ctasidetext{
+    max-width: 49rem;
+    height: auto;
+    width: 66.39%;
+    margin: 3.2rem auto 0 7.45%;
+    color: #ffffff;
+    overflow: hidden;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.ctastores{
+    display: flex;
+    margin: 4.438rem auto 0 5%;
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13.1rem;
+    margin-bottom: 8rem;
+}
+.enteremail{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-end;
+    border-top: solid 1px rgba(18, 18, 18, 0.302);
+
+
+}
+.enteremail p{
+    width: 90%;
+    max-width: 89.2rem;
+    margin-top: 6.3rem;
+    font-family: DM Sans;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+
+}
+.emailinput{
+    margin-right: 0;
+    max-width: 89.2rem;
+    width: 90%;
+    white-space: nowrap;
+    background-color: #121212;
+    border-radius: 10px;
+    margin-top: 2.4rem;
+
+
+}
+.emailinput span{
+    display: inline-block;
+    width: 20%;
+    font-family:"Neue Haas Grotesk Display Pro";
+    padding: auto;
+    margin: auto 5%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    color: #ffffff;
+
+}
+.emailinput input{
+    width: 80%;
+    height: 5.6rem;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.footeritems{
+    display: flex;
+    width: 90%;
+    justify-content: space-between ;
+    
+}
+.socialmedia{
+    display: flex;
+    justify-content: space-between;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+}
+.socialmedia img{
+    max-width: 100%;
+    /* width: 4.8rem;
+    height: 4.8rem; */
+    margin-top: 3.14rem;
+    margin-right: 3.1rem;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.footerheading{
+    margin-bottom: 3.2rem;
+    margin-top: 8rem;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.links p, .gethelp p,.download p, .resources p{
+    margin-bottom: 2.4rem;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
 @media screen and (max-width: 800px) {
     #navbar{
         display: none;
@@ -804,6 +1154,10 @@ overflow-y:hidden ;
     .newchat{
         display: flex;
     }
+.chatspacer, .assurancecontainer{
+    margin-left: 5%;
+    margin-right: 5%;
+}
     
   
     .influencers{
@@ -827,7 +1181,9 @@ overflow-y:hidden ;
      .influencerstextimg{
          display: flex;
          justify-content: flex-start;
- 
+     }
+     .influencerstext{
+
      }
      .influencerstext img{
          margin-top: 5%;
@@ -855,30 +1211,63 @@ overflow-y:hidden ;
         max-width:22.6rem ;
 
      }
+     .featurescontainer{
+         flex-direction: column;
+     }
+     .roadmap{
+         flex-direction: row;
+     }
+     .roadmapimage, .roadmap{
+         width: 100%;
+     }
+     .ctaimage2{
+        position: absolute;
+        max-width: 15rem;
+        max-height: 26.8rem;
+        top: 7.8%;
+        left: 41.6%;
+    }
+    .ctacontainer{
+        flex-wrap: wrap;
+        max-height: none;
+    }
+    .ctatext{
+        margin-bottom:15.2rem ;
+
+    }
+    .ctaimagescontainer, .ctatext{
+        width: 100%;
+    }
+    .ctastores{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .ctaheadertext{
+        font-size: 4.2rem;
+        line-height: 4.3rem;
+    }
+    
     
     
   }
-  /* @media screen and (max-width: 800px) {
-    #navbar{
-        display: inline-block;
+   @media screen and (max-width: 350px) {
+    .bullets, .bullet{
+        display: none;
         
     }
-    #logo{
-        margin: 2.98rem 1rem 0 7.4rem;
-        display: inline-block;
-    }
-    header{
-        margin-bottom: 136px;
-        white-space: nowrap;
-    }
-    #navbar ul li {
-        display: inline-block;
-        font-family: DM Sans;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 116.6%;
-        margin-right: 3.25rem;
-    }
+ 
 
-  } */
+  } 
+  @media screen and (max-width: 480px) {
+    .bullets{
+        width: 20%;
+        margin: 1rem 0 1rem 0;
+        height: 45rem;
+    
+    }
+    .vertline{
+        bottom: 38%;
+    }
+  } 
