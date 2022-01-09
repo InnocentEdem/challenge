@@ -930,6 +930,9 @@ footer{
 
 
 }
+.enteremail>p>span{
+    font-weight: 700;
+}
 .enteremail p{
     width: 90%;
     max-width: 89.2rem;
@@ -1176,13 +1179,14 @@ footer{
         flex-wrap: wrap;
         
     }
-    .influencersphone{
-        width: 100%;
+    .influencersphone img{
+       display: none;
         
     }
     .influencersphone img{
         margin-bottom: 3rem;
         margin-left: 0;
+        max-width: 100%;
     }
     .influencerstext{
         width: 90%;
@@ -1194,7 +1198,8 @@ footer{
          display: flex;
          justify-content: flex-start;
      }
-     .influencerstext{
+     .influencerstextimg{
+         margin-top: 10%;
 
      }
      .influencerstext img{
@@ -1276,14 +1281,38 @@ footer{
         
 
     }
+    .enteremail p{
+        font-size: 2.2rem;
+        width: 100%;
+        max-width: 200rem;
+    }
+    .enteremail>p>span{
+        font-weight: 700;
+    }
+    .emailinput{
+        width: 100%;
+    }
+    .emailinput input{
+        width: 65%;
+        font-size: 1.6rem;
+    }
+    #submit{
+        display: inline-block;
+        width: 35%;
+        min-width:30rem;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
     .footeritems{
         flex-direction: column;
         align-items: center;
     }
     .footeritems > div{
-        border-top: solid 1px rgba(18, 18, 18, 0.302);
+        border-top: solid 1px rgba(18, 18, 18, 0.3);
+        width: 60%;
 
     }
+
     #social{
         margin-top: 5%;
         padding-top: 5%;
@@ -1333,6 +1362,13 @@ footer{
         margin-top: 0%;
     }
     .ctaimagescontainer{
+    }
+    #submit{
+        display: inline-block;
+        width: 35%;
+        min-width:30rem;
+        margin-left: 5%;
+        margin-right: 10%;
     }
  
 
