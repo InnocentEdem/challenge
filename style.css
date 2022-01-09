@@ -1265,12 +1265,15 @@ footer{
     .ctastores{
         display: flex;
         flex-direction: row;
-        align-items: center;
+        justify-content: flex-start;
+        margin-top: 0%;
+    }
+    .ctastores img{
     }
     .ctaheadertext{
-        min-height: 3rem;
+        min-height: 5rem;
         font-size: 3.2rem;
-        line-height: 2.3rem;
+        line-height: 3.1rem;
         margin-top: 20%;
     }
     .ctasidetext{
@@ -1278,6 +1281,7 @@ footer{
         font-style: normal;
         font-weight: 500;
         line-height: 20px;
+        margin-bottom: 0%;
         
 
     }
@@ -1323,7 +1327,7 @@ footer{
     
     
   }
-   @media screen and (max-width: 411px) {
+   @media screen and (max-width: 385px) {
   
     .vertline{
         display: inline-block;
