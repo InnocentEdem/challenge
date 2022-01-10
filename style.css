@@ -161,7 +161,6 @@ ul li a{
     text-align: left;
     overflow-y: hidden;
     color: #007640;
-    border: solid;
 }
 
 .forfans-img1{
@@ -867,6 +866,7 @@ overflow-y:hidden ;
 
 .calltoaction{
     display: flex;
+    justify-content: center;
     height: auto;
     z-index: 50;
     }
@@ -876,7 +876,6 @@ overflow-y:hidden ;
     background-color:#029F58 ;
     background-image: url("./assets/noise.png");
     border-radius: 10rem;
-    width: 120rem;
 
 }
 .ctaimagescontainer{
