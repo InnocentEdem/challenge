@@ -34,7 +34,6 @@ header{
    
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 13.6rem;
 }
 #navbar ul li {
     display: inline-block;
@@ -52,7 +51,7 @@ ul li a{
     color:#ffffff;
 }
 .home{
-    padding-top: 47.24px;
+    padding-top: 4.724rem;
     background-color: #029F58;
     background-image: url("./assets/Rectangle.png");
     overflow-y: hidden;
@@ -70,21 +69,21 @@ ul li a{
     
 }
 .home-text-header{
-    max-width: 100rem;
+    width: 120rem;
     font-family: DM Sans; 
     font-size: 13rem;
     font-weight: 700;
     line-height: 12.3rem;
     letter-spacing: -0.06em;
     color: #ffffff;
-    margin: 0 7.5rem 2.5rem 7.5rem;
+    margin: 13.6rem 12rem 2.5rem 12rem;
     text-align: center;
     overflow-y: hidden ;
     height: auto;
     
 }
 .home-text{
-    max-width: 55rem;
+    width: 58.8rem;
     font-family: DM Sans;
     font-style: normal;
     font-weight: 500;
@@ -93,7 +92,7 @@ ul li a{
     font-size: 2rem;
     color: #ffffff;
     text-align: center;
-    margin: 4rem auto 0 auto;
+    margin: 4rem 42.6rem 0 42.6rem;
 }
 .stores{
     display: flex;
@@ -104,14 +103,20 @@ ul li a{
 .store-img1{
     display: inline-block;
     max-width: 100%;
+    min-width: 30%;
     height: auto;
-    margin: 20px;
+    width: 26rem;
+    margin-right: 2.6rem;
+    margin-left: 44.7rem;
+
 }
  .store-img2{
     display: inline-block;
     max-width: 100%;
+    min-width: 30%;
     height: auto;
-    margin: 20px;
+    width: 26rem;
+    margin-right: 44.7rem;
 }
 .home-images{
     display: flex;
@@ -139,25 +144,14 @@ ul li a{
    background-image: url("./assets/noise.png");
    position: relative;
    height: auto;
-   /* height: 50rem;  */
    overflow-y: hidden;
 
 }
-.forfans1text{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: flex-start;
 
-}
-.forfans1text p{
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
+
 .forfans-header-text{
-    margin-top: 10%;
-    max-width: 50rem;
+    margin: 14.3rem  73.6rem 0 12.2rem;
+    width: 58.2rem;
     font-family: DM Sans;
     font-size: 7.2rem;
     font-style: normal;
@@ -167,38 +161,45 @@ ul li a{
     text-align: left;
     overflow-y: hidden;
     color: #007640;
+    border: solid;
 }
 
 .forfans-img1{
     position: absolute;
-    z-index: -100;
     max-width: 100%;
+    z-index: -100;
+    width:16.912rem;
     min-width: 10%;
-    height: auto;
-    width: 10%;
-    top: 4rem;
-    left: 4.7rem;
+    height: 19.171;
+    top: 4.59rem;
+    left: 4.75rem;
+    right: 122.327;
     }
 .forfans-img2{
     position: absolute;
-    width: 30%;
+    max-width: 100%;
+    width: 48.952rem;
+    height: 55.337rem;
     z-index: -100;
-    right: 4.2rem;
-    top: -10%;
+    left: 87.165rem;
+    top: -18.235rem;
 }
-
+.forfans1text{
+    width: 1440rem;
+    height: 56rem;
+}
 .forfans-text{
-    max-width: 68.3rem; 
+    width: 68.3rem; 
+    margin: 3.1rem 63.5rem 15rem 12.2rem;
     font-family: DM Sans;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 3rem;
     letter-spacing: 0em;
     text-align: left;
     opacity: 60%;
     z-index: 500;
-    margin-bottom: 10%;
 
 }
 .connect{
@@ -214,32 +215,36 @@ ul li a{
 
 
 .connecttext{
-    width: 45%;
-    margin-left: 5%;
+    
+width: 50%;
+margin-left: 12.9rem;
 }
 .connect-image{
     display: flex;
     justify-content: center;
-    width: 45%;
-    margin: auto 5% auto 0;
+    width: 50%;
+}
+.cimagecontainer{
+    margin-top: 11.4rem;
 
 }
 .pillimg1{
     max-width: 100%;
-    margin: auto;
 
 
 }
 .fans3{
-    width:100%
+    width:100%;
+    display: flex;
+    
 }
 .connectpill{
-    max-width: 50.1rem;
-    margin: 10% 0 0 0;
+    max-width: 100%;
+    margin: 13.4rem 0 0 0;
 }
 .fansheader{
 max-width: 50.1rem;
-margin: 5% 0 0 0;
+margin: 4.7rem 0 0 0;
 font-family: DM Sans;
 font-size: 6.8rem;
 font-style: normal;
@@ -251,15 +256,13 @@ overflow-y:hidden ;
 
 }
 .fanstext{
-    width: 100%;
 
-    max-width: 50.1rem;
-    margin: 5% 0 10% 0;
-    font-family: DM Sans;
-    font-size: 20px;
+    width: 48.1rem;
+    margin: 3.2rem 0 9.7rem 0;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 3rem;
     letter-spacing: 0em;
     text-align: left;
 
@@ -273,7 +276,6 @@ overflow-y:hidden ;
 }
 .assurance{
     width: 50%;
-
     position: relative;
     height: auto;
     background-color:#039352;
@@ -281,19 +283,21 @@ overflow-y:hidden ;
   
 }
 .assurancecontainer{
-    margin-left: 10%;
+    margin-left: 12rem;
+    width: 48.9rem;
 
 }
 .chatspacer{
     display: flex;
     justify-content: center;
-    margin-right: 10%;
+    margin-right: 12.0rem;
+    margin-left: 8.7rem;
 }
 .assurance-images{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 58.1rem;
+    max-width: 48.1rem;
     margin: 10% 0 0 0;
 }
 .chat{
@@ -302,19 +306,19 @@ overflow-y:hidden ;
     z-index: 300;
 }
 .fans3pill{
-    width: 100px;
-    height: 32px;
+    width: 10rem;
+    height: 3.2rem;
 }
 .chaticon{
-    width: 64px;
-    height: 64px;
-    right: 120px;
-    top: 126px;
+    width: 6.4rem;
+    height: 6.4rem;
+    right: 12rem;
+    top: 12.6rem;
 }
 .fans3header{
     width: 90%;
 
-    height: 136px;
+    height: 13.6rem;
     max-width: 48.1rem;
     margin: 6.1rem 0  0 0;
     font-family: DM Sans;
@@ -330,7 +334,7 @@ overflow-y:hidden ;
 .fans3text{
     width: 90%;
     max-width: 48.1rem;
-    margin: 6.1rem 0  auto 0;
+    margin: 6.1rem 0  0rem 0;
     font-family: DM Sans;
     font-size: 2rem;
     font-style: normal;
@@ -343,8 +347,7 @@ overflow-y:hidden ;
 .chat-container{
     display: flex;
     flex-direction: column;
-    max-width: 51.3rem;
-    width: 71.25%;
+    width: 51.3rem;
     margin: 0 0 0 0;
 }
 .chat1{
@@ -355,94 +358,108 @@ overflow-y:hidden ;
     align-self: center;
 }
 .arrow{
-    height: 20px;
-    width: 11.399999618530273px;
-    margin: 40px 0 39px 18px;
+    height: 2rem;
+    width: 1.1rem;
+    margin: 4rem 0 3.9rem 1.8rem;
 }
 .chatimage{
-    margin: 21px 0 23px 23.6px;
+    margin: 2.1rem 0 2.3rem 2.36rem;
 }
 .chatname{
     font-family: DM Sans;
     display: inline-block;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 27px;
+    line-height: 2.7rem;
     letter-spacing: 0em;
     text-align: left;
-    margin: 36px 0 36px 13px;
+    margin: 3.6rem 0 3.6rem 1.3rem;
 }
 .received-chat{
-    align-self: flex-end;
-    margin-top: 5.3rem;;
+    margin: 5.3rem 0 0 auto;
     background-color: #ffffff;
-    border-radius: 20px 20px 0px 20px;
-    max-width: 37.9rem;  
-    padding: 15px 15px 18px 15px;
+    border-radius: 2rem 2rem 0px 2rem;
+    width: 37.9rem;  
+    padding: 1.5rem 1.5rem 1.8rem 1.5rem;
     position: relative;
     overflow-y: hidden;
 
 }
 .received-chat p{
     font-family: DM Sans;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 2.7rem;
     letter-spacing: 0em;
     text-align: left;
    
 }
 .time{
     position: absolute;
-    bottom:3px;
-    right:15px;
+    bottom:0.3rem;
+    right:1.5rem;
     font-family: DM Sans;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 1.8rem;
     letter-spacing: 0em;
     text-align: left;
 
    
 }
 .sent-chat{
-    align-self: flex-start;
     background-color: #ffffff;
-    border-radius: 20px 20px 20px 0px;
-    margin-top: 3rem;
-    max-width: 30.5rem;
-    width: auto;  
-    padding: 15px 15px 18px 15px;
+    border-radius: 2rem 2rem 2rem 0;
+    margin: 3rem 0 auto 0rem;
+    width: 21.2rem; 
+    padding: 1.5rem 1.5rem 1.8rem 1.5rem;
     position: relative;
     overflow-y: hidden;
     font-family: DM Sans;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 2.7rem;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.sent-chat2{
+    background-color: #ffffff;
+    border-radius: 2rem 2rem 2rem 0;
+    margin: 3rem auto 0 0rem;
+    width: 30.5rem;
+    width: auto;  
+    padding: 1.5rem 1.5rem 1.8rem 1.5rem;
+    position: relative;
+    overflow-y: hidden;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.7rem;
     letter-spacing: 0em;
     text-align: left;
 
 }
 .time2{
     position: absolute;
-    bottom:3px;
-    left:15px;
+    bottom:0.3rem;
+    left:1.5rem;
     font-family: DM Sans;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 1.8rem;
     letter-spacing: 0em;
     text-align: left;
 }
 .newchat{
     white-space: nowrap;
-    max-width: 51.3rem;
-    width: 100%;
+    margin-bottom: 0%;
+    width: 51.3rem;
     margin-top: 6.3rem;
     height: 9.9rem;
     background-color: #FFFFFD;
@@ -455,9 +472,9 @@ overflow-y:hidden ;
     margin: 1.5rem 0 3rem 1.5rem;
     max-width: 44.1rem;
     width: 80%;
-    height: 54px;
+    height: 5.4rem;
     background-color:#F3F3F3;
-    border-radius: 10px;
+    border-radius: 1rem;
     overflow: hidden;
 
 }
@@ -485,13 +502,13 @@ overflow-y:hidden ;
     display: inline-block;
     max-width: 100%;
     margin: 1.294rem 2.97rem 1.294rem 0;
-    height: 32px;
+    height: 3.2rem;
     overflow: hidden;
 }
 .send{
-    margin: 30px 19px 45px 13.97px;
-    width: 24px;
-    height: 24px;
+    margin: 3rem 1.9rem 4.5rem 1.397rem;
+    width: 2.4rem;
+    height: 2.4rem;
 }
 .influencers{
     display: flex;
@@ -500,52 +517,45 @@ overflow-y:hidden ;
 .influencersphone{
     width: 50%;
     display: flex;
+    margin-top: 9.4rem;
     justify-content: center;
     
 }
 .influencersphone img{
     max-width: 100%;
-    margin-top: 5rem;
-    width: 60%;
 }
 .influencerstext{
     width: 50%;
-    margin-top: 17.6rem;
+    margin-top: 17.8rem;
 }
 .influencerstextimg{
-    max-width: 42.1rem;
-    width: 80%;
-    margin: 4.6rem auto 4.6rem 1.5;
+    width: 48.1rem;
+    margin: 0 auto 0rem 1.5rem;
 
 }
 .influencerstext img{
     margin: 17.1rem 0px 0 0px;
 }
 .influencerstext .headertext{
-    margin: 4.6rem auto 0 0;
-    width: 80%;
-    min-width: 35rem;
-    max-width: 42.1rem;
+    margin: 4rem auto 0 1.5rem;
+    width: 48.1rem;
+    height: auto;
     font-family: DM Sans;
-    font-size: 68px;
+    font-size: 6.8rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 69px;
+    line-height: 6.875rem;
     letter-spacing: -0.03em;
     text-align: left;
     overflow-y: hidden;
 }
 .influencerstext .maintext{
-    margin: 4.6rem auto 10% 0;
-    width: 80%;
-    max-width: 42.1rem;
-    min-width: 32rem;
-
-    font-family: DM Sans;
-    font-size: 20px;
+    margin: 3.2rem auto auto 1.5rem;
+    max-width: 48.1rem;
+    font-size: 2.0rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 3.0rem;
     letter-spacing: 0em;
     text-align: left;
 
@@ -570,26 +580,23 @@ overflow-y:hidden ;
 
 
 .innerrect{
-    max-width: 51.3rem;
-    width: 71.25%;
-    height: 49rem;
-    margin: -12px 12.08% 17.2rem 16.66%;
+    width: 51.3rem;
+    margin: -0.6rem 8.7rem 17.2rem 12rem;
     border:solid 15px#2E2E2E ;
     border-radius: 0px 0px 20px 20px;
     overflow-y: hidden;
+    box-sizing: content-box;
 
 }
 
 
 .calltab{
-    max-width: 51.4rem;
+    width: 51.4rem;
     background-color: #363636;
-    width: 100%;
-    height: 49rem;
-    margin-top: 17.5rem;
-   
-    border-radius: 20px 20px 20px 20px;
-    border: 5px solid #363636;
+    height: 31.6rem;
+    margin: 17.9rem 0 -0.7rem 0;
+    border-radius: 2rem 2rem 2rem 2rem;
+    overflow-y: hidden;
 
 }
 .caller{
@@ -629,15 +636,17 @@ overflow-y:hidden ;
 
 .decline{
     background-color: #E34D4D;
+    width: 20.6rem;
+    height: 5.46rem;
     padding: 2% 13%;
     font-family: DM Sans;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 3rem;
     letter-spacing: 0em;
     text-align: cent;
-    border-radius: 8px;
+    border-radius: 0.8rem;
 
 
 
@@ -645,14 +654,16 @@ overflow-y:hidden ;
 .accept{
     background-color: #029C56;
     padding: 2% 13%;
+    width: 20.6rem;
+    height: 5.46rem;
     font-family: DM Sans;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 3rem;
     letter-spacing: 0em;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 0.8rem;
 
 }
 .filtericon{
@@ -687,7 +698,7 @@ overflow-y:hidden ;
     text-align: left;
     background-color:#FF8C62 ;
     color: #000000;
-    border-radius: 50px;
+    border-radius: 5rem;
 
 }
 
@@ -699,7 +710,7 @@ overflow-y:hidden ;
     font-size: 6.8rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 69px;
+    line-height: 6.9rem;
     letter-spacing: -0.03em;
     text-align: left;
     overflow: hidden;
@@ -709,23 +720,27 @@ overflow-y:hidden ;
     max-width: 42.1rem;
     margin: 3.2rem auto 0 auto;
     width: 66.7%;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 3rem;
     text-align: left;
     margin-bottom: 10%;
 
 }
+.features{
+    height: 115.052rem;
+    overflow: hidden;
+
+}
+
 .featuresheader{
-    max-width: 37.1rem;
-    min-width: 35rem;
-    width:25.76%;
-    margin: 10% auto 0 8.33%;
-    font-size: 68px;
+    width: 37.1rem;
+    margin: 13rem auto 0 12rem;
+    font-size: 6.8rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 69px;
+    line-height: 6.875rem;
     letter-spacing: -0.03em;
     text-align: left;
     color: #007640;
@@ -734,10 +749,12 @@ overflow-y:hidden ;
 }
 
 .featurescontainer{
-    display: flex;
-    max-width: 110.2rem;
-    width: 90%;
+    width: 100%;
     margin: auto;
+    position: relative;
+    height: auto;
+    overflow-y: hidden;
+    display: flex;
 }
 .easeofuse{
 
@@ -745,8 +762,10 @@ overflow-y:hidden ;
 .roadmap{
     display: flex;
     width: 50%;
-    margin-top: 10%;
-    margin-left: 0;
+    margin-top: 16.3rem;
+    margin-left: 12.3rem;
+    z-index: 50;
+    overflow-y: hidden;
 }
 .bullets{
     width: 3%;
@@ -757,7 +776,7 @@ overflow-y:hidden ;
 .vertline{
     display: inline-block;
     position: absolute;
-    border-left: solid 1px rgba(0, 0, 0, 0.3);
+    border-left: solid 0.1rem rgba(0, 0, 0, 0.3);
     margin-left: 4.8rem;
     /* height: 100%; */
     top: 5%;
@@ -766,15 +785,16 @@ overflow-y:hidden ;
 }
 .forline{
     position: relative;
+    width: 100%;
 }
 .bullets div{
-    width: 100%;
-    height: 45%;
 }
 .bullettext{
-    width: 80%;
+    /* width: 80%; */
     margin-left: -1.2rem;
     position: relative;
+    z-index: 50;
+
 }
 .easeheader,.easetext{
     margin-left: 4.8rem;
@@ -784,18 +804,19 @@ overflow-y:hidden ;
     font-size: 3.6rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 42px;
+    line-height: 4.198rem;
     letter-spacing: -0.03em;
     text-align: left;
     overflow-y: hidden;
 
 }
+.easeofuse{}
 .bullet{
     display: inline-block;
     position: absolute;
     width: 2.2rem;
     height: 2.2rem;
-    border: solid 1px black;
+    border: solid 0.1rem black;
     background-color: #ffffff;
     border-radius: 50%;
     overflow: hidden;
@@ -814,45 +835,54 @@ overflow-y:hidden ;
 
 }
 .easetext{
-    max-width: 37.9rem;
-    font-size: 20px;
+    width: 37.9rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 3rem;
     letter-spacing: 0em;
     text-align: left;
-    margin-bottom: 8rem;
+    margin:1.6rem auto 8rem 4.8rem
 
 }
 .roadmapimage{
-    width: 50%;
-    display:flex;
-    justify-content: flex-start;
+    width: 50%; 
+   
+}
+.rmimagecontainer{
+
+    margin: 0.7rem 15.8rem auto 0;
+    height: 117.052rem;
+    display: block;
+    max-width: 100%;
+    position: absolute;
+    left: 55rem;
+    z-index: -50;
 }
 .roadmapimg{
-    max-width: 100%;
-    height: auto;
-    margin-right: 11%;
+    max-width: 71.3rem;
+    width: 100%;
 }
+
+
 .calltoaction{
     display: flex;
-    justify-content: center;
-    margin-top: -30.3rem;
+    height: auto;
+    z-index: 50;
     }
 .ctacontainer{
     display: flex;
+    margin: 0 12rem 13rem 12rem;
     background-color:#029F58 ;
     background-image: url("./assets/noise.png");
-    border-radius: 100px;
-    /* max-width: 130rem; */
-    /* max-height: 62.3rem; */
-    width: 90%;
+    border-radius: 10rem;
+    width: 120rem;
 
 }
 .ctaimagescontainer{
-    margin: 8.5% 0 0 8.58%;
+    margin: 10rem auto auto 10rem;
     max-width: 35.9rem;
-    width: 38.5%;
+    width: 359rem;
     height: auto;
     position: relative;
     overflow: hidden;
@@ -877,42 +907,52 @@ overflow-y:hidden ;
 }
 .ctaheadertext{
     /* max-width: 49rem; */
-    /* width: 66.39%; */
-    margin: 16% 0 0 10%;
+    width: 120rem;
+    margin: 13.5rem 19.3rem 0 auto;
     min-height: 16rem;
     color: #ffffff;
     overflow: hidden;
     font-family: DM Sans;
-    font-size: 72px;
+    font-size: 7.2rem;
     font-style: normal;
     max-width: 50rem;
     font-weight: 700;
-    line-height: 74px;
+    line-height: 7.4rem;
     letter-spacing: -0.03em;
     text-align: left;
 
 }
 .ctasidetext{
-    max-width: 49rem;
+    width: 49rem;
     height: auto;
-    margin-left: 10%;
-    margin-top: 5%;
-    width: 66.39%;
+    margin:3.2rem 19.3rem  0 auto ;
     color: #ffffff;
     overflow: hidden;
     font-family: DM Sans;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 3rem;
     letter-spacing: 0em;
     text-align: left;
 
 }
 .ctastores{
     display: flex;
-    margin: 4.438rem auto 0 5%;
+    justify-content: space-between;
+    margin: 4.438rem 13.7rem 0 auto;
+    width: 54.6rem;
 
+}
+.store-img3{
+    width: 26rem;
+    max-width: 100%;
+
+}
+.store-img4{
+    width: 26rem;
+    max-width: 100%;
+    
 }
 footer{
     display: flex;
@@ -938,9 +978,9 @@ footer{
     max-width: 89.2rem;
     margin-top: 6.3rem;
     font-family: DM Sans;
-    font-size: 30px;
+    font-size: 3rem;
     font-style: normal;
-    line-height: 45px;
+    line-height: 4.5rem;
     letter-spacing: 0em;
     text-align: left;
 
@@ -953,7 +993,7 @@ footer{
     width: 90%;
     white-space: nowrap;
     background-color: #121212;
-    border-radius: 10px;
+    border-radius: 1rem;
     margin-top: 2.4rem;
 
 
@@ -964,10 +1004,10 @@ footer{
     font-family:"Neue Haas Grotesk Display Pro";
     padding: auto;
     margin: auto 5%;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 16px;
+    line-height: 1.6rem;
     letter-spacing: 0.2em;
     text-align: left;
     color: #ffffff;
@@ -976,10 +1016,10 @@ footer{
 .emailinput input{
     width: 80%;
     height: 5.6rem;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 3rem;
     letter-spacing: 0em;
     text-align: left;
 
@@ -1015,10 +1055,10 @@ footer{
     margin-bottom: 3.2rem;
     margin-top: 8rem;
     font-family: "DM Sans";
-    font-size: 24px;
+    font-size: 2.4rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 36px;
+    line-height: 3.6rem;
     letter-spacing: 0em;
     text-align: left;
 
@@ -1026,10 +1066,10 @@ footer{
 .links p, .gethelp p,.download p, .resources p{
     margin-bottom: 2.4rem;
     font-family: "DM Sans";
-    font-size: 18px;
+    font-size: 1.8rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 3rem;
     letter-spacing: 0.02em;
     text-align: left;
 
@@ -1039,15 +1079,18 @@ footer{
     #navbar{
         display: none;
     }
+    html{
+        font-size: 1vw;
+    }
    
     .hamburger > div{
-        border-bottom: solid 2px black;
-        margin-bottom:  5px;
+        border-bottom: solid 0.2rem black;
+        margin-bottom:  0.5rem;
         
     }
     .hamburger{
         display: inline-block;
-        margin: 10px 0px 0 0px;
+        margin: 1rem 0px 0 0px;
 
     }
     .hamburger i{
@@ -1055,20 +1098,20 @@ footer{
         color: #ffffff;
     }
     .home-text-header{
-        font-size: 3rem;
+        /* font-size: 3rem;
         font-weight: 700;
         line-height: 3.1rem;
-        margin: 0px 12px 40px 12px;
+        margin: 0px 12px 40px 12px; */
 
     }
     header{
         margin-bottom: 3rem;
     }
-    .home-text{
+    /* .home-text{
         color: #ffffff;
         text-align: center;
         margin: 0px 40px 40px 40px;
-    }
+    } */
  
     .connect{
         display: flex;
@@ -1076,9 +1119,7 @@ footer{
         
     }
     .connecttext{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+
     }
     .connect-image{
         width: 90%;
@@ -1102,14 +1143,14 @@ footer{
         display: flex;
         flex-direction: column;
     }
-    .fans3text{
+    /* .fans3text{
         padding-bottom: 9rem;
-    }
+    } */
     .assurance{
         width: 100%;
     }
     .input{
-        display: inline-block;
+        /* display: inline-block;
         white-space: nowrap;
         margin: 1.5rem 0 3rem 1.5rem;
         max-width: 44.1rem;
@@ -1118,10 +1159,10 @@ footer{
         background-color:#F3F3F3;
         border-radius: 10px;
         overflow: hidden;
-    
+     */
     }
     .input p{
-        margin: 1.4rem 0.5rem 1.3rem 1rem;
+        /* margin: 1.4rem 0.5rem 1.3rem 1rem;
         max-width: 27.5rem;
         width: 60%;
         font-size: 1.5rem;
@@ -1130,7 +1171,7 @@ footer{
         line-height: 2.7rem;
         text-align: left;
         display: inline-block;
-    
+     */
     }
     .input{
         display: flex;
@@ -1155,23 +1196,22 @@ footer{
     }
     
     .mic{
-        display: inline-block;
+        /* display: inline-block;
         width: 40%;
         margin: auto 0 auto auto ;
         margin-right: 0.5rem;
         height: auto;
-        overflow: hidden;
+        overflow: hidden; */
     }
     .send{
-        margin: 30px 19px 45px 13.97px;
-        width: 2.4rem;
+        /* margin: 30px 19px 45px 13.97px;
+        width: 2.4rem; */
     }
     .newchat{
         display: flex;
     }
 .chatspacer, .assurancecontainer{
-    margin-left: 5%;
-    margin-right: 5%;
+ width: 100%;
 }
     
   
@@ -1183,30 +1223,26 @@ footer{
        display: none;
         
     }
-    .influencersphone img{
-        margin-bottom: 3rem;
-        margin-left: 0;
-        max-width: 100%;
-    }
+    
     .influencerstext{
         width: 90%;
         margin:auto ;
         flex-direction: column;
         align-self: center;
      }
-     .influencerstextimg{
+     /* .influencerstextimg{
          display: flex;
          justify-content: flex-start;
      }
      .influencerstextimg{
          margin-top: 10%;
 
-     }
-     .influencerstext img{
+     } */
+     /* .influencerstext img{
          margin-top: 5%;
-     }
+     } */
      .headertext, .maintext{
-        margin: 4.6rem auto 0 auto;
+        /* margin: 4.6rem auto 0 auto; */
 
      }
      .filter{
@@ -1233,6 +1269,7 @@ footer{
     }
      .roadmap{
          flex-direction: row;
+         z-index: 50;
      }
      .roadmapimage, .roadmap{
          width: 100%;
@@ -1256,18 +1293,18 @@ footer{
         border-radius: 50px;
     }
     .ctatext{
-        width: 60%;
+        /* width: 60%; */
 
     }
     .ctaimagescontainer{
         width: 30%;
     }
-    .ctastores{
+    /* .ctastores{
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         margin-top: 0%;
-    }
+    } */
     .ctastores img{
     }
     .ctaheadertext{
@@ -1277,11 +1314,11 @@ footer{
         margin-top: 20%;
     }
     .ctasidetext{
-        font-size: 16px;
+        /* font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 20px;
-        margin-bottom: 0%;
+        margin-bottom: 0%; */
         
 
     }
@@ -1300,7 +1337,7 @@ footer{
         width: 65%;
         font-size: 1.6rem;
     }
-    #submit{
+     #submit{
         display: inline-block;
         width: 35%;
         min-width:30rem;
@@ -1310,7 +1347,7 @@ footer{
     .footeritems{
         flex-direction: column;
         align-items: center;
-    }
+    } 
     .footeritems > div{
         border-top: solid 1px rgba(18, 18, 18, 0.3);
         width: 60%;
@@ -1323,28 +1360,28 @@ footer{
         padding-bottom: 5%;
         border-top: none;
     }
-    
+     
     
     
   }
   @media screen and (max-width: 478px) {
     .calltoaction{
-        margin-top: 0;
+        /* margin-top: 0; */
     } 
     .ctaheadertext{
-        min-height: 6rem;
+        /* min-height: 6rem;
         max-width: 15rem;
         font-size: 2.2rem;
         line-height: 2.3rem;
         margin-top: 5%;
-        margin-bottom: 0%;
+        margin-bottom: 0%; */
     }
     .ctasidetext{
-        margin-top: 0;
+        /* margin-top: 0;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
-        line-height: 20px;
+        line-height: 20px; */
         
 
     }
@@ -1375,68 +1412,68 @@ footer{
 }
 @media screen and (max-width: 480px) {
     .bullets{
-        width: 20%;
+        /* width: 20%;
         margin: 1rem 0 1rem 0;
-        height: 45rem;
+        height: 45rem; */
     
     }
     .vertline{
-        bottom: 38%;
+        /* bottom: 38%; */
     }
   } 
    @media screen and (max-width: 385px) {
   
     .vertline{
-        display: inline-block;
+        /* display: inline-block;
         position: absolute;
         border-left: solid 1px rgba(0, 0, 0, 0.3);
         margin-left: 4.8rem;
         top: 3%;
         left: -3.85rem;
         height: 60%;
-        bottom:38%;
+        bottom:38%; */
     }
     .rmimagecontainer{
         display: none;
     }  
     .calltoaction{
-        margin-top: 0;
+        /* margin-top: 0; */
     } 
     .ctaheadertext{
-        min-height: 6rem;
+        /* min-height: 6rem;
         max-width: 15rem;
         font-size: 2.2rem;
         line-height: 2.3rem;
         margin-top: 5%;
-        margin-bottom: 0%;
+        margin-bottom: 0%; */
     }
     .ctasidetext{
-        margin-top: 0;
+        /* margin-top: 0;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
-        line-height: 20px;
+        line-height: 20px; */
         
 
     }
     .ctatext{
-        width: 75%;
+        /* width: 75%; */
     }
     .ctaimagescontainer{
-        width: 25%;
+        /* width: 25%; */
     }
     .ctastores{
         display: flex;
         width: 100%;
         flex-direction: row;
         /* justify-content: flex-start; */
-        margin-top: 0%;
+        /* margin-top: 0%;
         margin-left: 0%;
-        z-index: 100;
+        z-index: 100; */
     }
     .ctastores img{
-        min-width: 8.5rem;
-        margin-top: 0.5rem;
+        /* min-width: 8.5rem;
+        margin-top: 0.5rem; */
     }
     .ctacontainer{
         width: 100%;
@@ -1444,11 +1481,11 @@ footer{
     .ctaimagescontainer{
     }
     #submit{
-        display: inline-block;
+        /* display: inline-block;
         width: 35%;
         min-width:30rem;
         margin-left: 5%;
-        margin-right: 10%;
+        margin-right: 10%; */
     }
  
 
